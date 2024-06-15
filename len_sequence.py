@@ -5,6 +5,7 @@ advice = []
 while num !=0:
     advice.append(num)
     num = int(input())
+advice.sort()
 while len(advice) >= 2:
     if advice[-1] == advice[-2]:
         equal += 1
