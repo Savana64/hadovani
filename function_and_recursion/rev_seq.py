@@ -21,3 +21,23 @@ def řada(číslo):
     
 řada(číslo=int(input("tu to piš\n")))
 print(0)
+# zkrácená verze
+def řada(číslo):
+    if číslo == 0:              
+        print(0)
+    else:
+        řada(int(input("a dál?")))
+        print(číslo)
+        
+řada(číslo=int(input()))
+
+# a jejich verze
+def reverse():
+    x = int(input())
+    if x != 0:
+        reverse()
+    print(x)
+
+reverse()
+
+
