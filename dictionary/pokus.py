@@ -31,7 +31,7 @@ print(country_HDP_PPP["Nigérie"],"tady sem")
 # idealos = pod 25000
 # jen se neposerte nad 25000
 country_HDP_PPP["Lucembursko"]=112053
-hodnocení={"cosi",}
+ 
 for key in country_HDP_PPP:
     if country_HDP_PPP[key]>25000:
         print(key, "jen se neposerte")
