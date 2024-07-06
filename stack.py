@@ -1,0 +1,2 @@
+Zásobník
+lifo
