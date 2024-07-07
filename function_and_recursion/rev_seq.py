@@ -11,13 +11,13 @@ def pruzkum(hloubka):
 pruzkum(0)
 # jsem napsala tady tenhle prográmek, aniž bych pochopila, jak to funguje
 def řada(číslo):
-    print(f"přičítám číslo {číslo}")
+    print(f"přidám číslo {číslo}")
     if číslo == 0:
         print("jdem to vypsat")
     else:
-        print(f"nejdřív vezmu {číslo} ")
+        
         řada(int(input("a dál?")))
-        print(f"že by pozpátku?{číslo}")
+        print(f"pozpátku{číslo}")
     
 řada(číslo=int(input("tu to piš\n")))
 print(0)
